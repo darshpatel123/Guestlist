@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Guest list</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="main.js"></script>
+
+    </head>
+    <body>
+        <center>
+            <h1>Guest name</h1>
+            <br>
+        <input id="name" placeholder="name">
+        <button onclick="add()">Add</button>
+        <br>
+        <br>
+        <button onclick="menu_s()" id="showmenu_button">
+         Show menu
+        </button>
+        <button style="display: none;" id="hide_button">
+            Hide menu
+           </button>
+           <br>
+           <div id="menu"></div>
+           
+           <br>
+           <button onclick="sort()" style="display: none;" id="sort_button">
+            Sort menu
+        </button>
+        <br>
+        <div id="menu_sorted"></div>
+        <br>
+        <h1>search</h1>
+        <input id="search" placeholder="search">
+        <button onclick="search()">Search</button>
+        <h1 id="search_res"></h1>
+       </center>
+       <br> 
+       <button>Null every thing</button>
+    </body>
+</html>
