@@ -61,6 +61,6 @@ function menu_s(){
         }
     }
    funcion del(){
-   Guest=[];
+   var Guest=[];
    }
     
