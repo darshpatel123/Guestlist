@@ -60,7 +60,5 @@ function menu_s(){
             
         }
     }
-   funcion del(){
-   var Guest=[];
-   }
+ 
     
