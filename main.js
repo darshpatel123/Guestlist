@@ -46,12 +46,12 @@ function menu_s(){
     function search(){
         var searching=document.getElementById("search").value;
         var found=0;
-        //var search_l=Guests.length;
+      
         var len;
-        for(len=0; len<Guests.length;len++){
-            //search_result=Guests[z];
+        for(len=0; len<Guests.length; len++){
+            
             if(Guests[len] == searching){
-               // var search_guest=z + 1;
+              
                 found=found+1;
                 
             }
