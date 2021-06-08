@@ -55,7 +55,7 @@ function menu_s(){
                 found=found+1;
                 
             }
-            document.getElementById("search_res").innerHTML="Result found"+"Names Found-"+found+" "+"Are same as this name";
+            document.getElementById("search_res").innerHTML="Result found "+"Names Found-"+found+" "+"Are same as this name";
                 console.log("Result found"+" "+search_guest+" "+"Guest");
             
         }
